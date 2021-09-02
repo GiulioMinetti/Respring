@@ -11,10 +11,24 @@
 
   
   <style>
-  h1 {text-align: center; display: table-cell; vertical-align: middle;}
-  body {position: absolute; top: 100%; transform: translateY(50%); width: 100%; text-align: center; margin: 0;}
+  .parent {
+  background-color: goldenrod;
+  width: 500px;
+  height: 500px;
+ 
+  display: grid;
+}
+ 
+.child {
+  background-color: cornflowerblue;
+  padding: 10px;
+ 
+  margin: auto;
+}
   </style>
-  <h1><a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/GiulioMinetti/Respring/main/manifest.plist">Respring</a></h1>
+        <div class="parent">
+  <span class="child"><h1><a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/GiulioMinetti/Respring/main/manifest.plist">Respring</a></h1></span>
+</div>
 
 </head>
 </html>
