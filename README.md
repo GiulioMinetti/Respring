@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Respring</title>
+  <h1>Respring</h1>
 </head>
 <body>
 
